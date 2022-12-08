@@ -1,19 +1,22 @@
-Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
-
-You must write an algorithm with O(log n) runtime complexity.
+Given an integer x, return true if x is a 
+palindrome
+, and false otherwise.
 
  
 
 Example 1:
 
-Input: nums = [1,3,5,6], target = 5
-Output: 2
+Input: x = 121
+Output: true
+Explanation: 121 reads as 121 from left to right and from right to left.
 Example 2:
 
-Input: nums = [1,3,5,6], target = 2
-Output: 1
+Input: x = -121
+Output: false
+Explanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.
 Example 3:
 
-Input: nums = [1,3,5,6], target = 7
-Output: 4
+Input: x = 10
+Output: false
+Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
  
