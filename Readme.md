@@ -1,23 +1,18 @@
-Write a function to find the longest common prefix string amongst an array of strings.
+Given the root of a binary tree, determine if it is a valid binary search tree (BST).
 
-If there is no common prefix, return an empty string "".
+A valid BST is defined as follows:
 
+The left subtree of a node contains only nodes with keys less than the node's key.
+The right subtree of a node contains only nodes with keys greater than the node's key.
+Both the left and right subtrees must also be binary search trees.
  
-
 Example 1:
-
-Input: strs = ["flower","flow","flight"]
-Output: "fl"
+Input: root = [2,1,3]
+Output: true
 
 
 Example 2:
-Input: strs = ["dog","racecar","car"]
-Output: ""
-Explanation: There is no common prefix among the input strings.
- 
+Input: root = [5,1,4,null,null,3,6]
+Output: false
 
-Constraints:
-
-1 <= strs.length <= 200
-0 <= strs[i].length <= 200
-strs[i] consists of only lowercase English letters.
+Explanation: The root node's value is 5 but its right child's value is 4.
