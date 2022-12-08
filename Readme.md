@@ -1,24 +1,21 @@
-You are given the heads of two sorted linked lists list1 and list2.
+You are climbing a staircase. It takes n steps to reach the top.
 
-Merge the two lists in a one sorted list. The list should be made by splicing together the nodes of the first two lists.
+Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
 
-Return the head of the merged linked list.
-
-
+ 
 
 Example 1:
 
-Input: list1 = [1,2,4], list2 = [1,3,4]
-Output: [1,1,2,3,4,4]
-
-
+Input: n = 2
+Output: 2
+Explanation: There are two ways to climb to the top.
+1. 1 step + 1 step
+2. 2 steps
 Example 2:
 
-Input: list1 = [], list2 = []
-Output: []
-
-
-Example 3:
-
-Input: list1 = [], list2 = [0]
-Output: [0]
+Input: n = 3
+Output: 3
+Explanation: There are three ways to climb to the top.
+1. 1 step + 1 step + 1 step
+2. 1 step + 2 steps
+3. 2 steps + 1 step
