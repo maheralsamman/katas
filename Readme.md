@@ -1,15 +1,23 @@
-Given the head of a singly linked list, reverse the list, and return the reversed list.
+Write a function to find the longest common prefix string amongst an array of strings.
+
+If there is no common prefix, return an empty string "".
 
  
 
 Example 1:
-Input: head = [1,2,3,4,5]
-Output: [5,4,3,2,1]
+
+Input: strs = ["flower","flow","flight"]
+Output: "fl"
+
 
 Example 2:
-Input: head = [1,2]
-Output: [2,1]
+Input: strs = ["dog","racecar","car"]
+Output: ""
+Explanation: There is no common prefix among the input strings.
+ 
 
-Example 3:
-Input: head = []
-Output: []
+Constraints:
+
+1 <= strs.length <= 200
+0 <= strs[i].length <= 200
+strs[i] consists of only lowercase English letters.
