@@ -1,21 +1,15 @@
-You are climbing a staircase. It takes n steps to reach the top.
-
-Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
+Given the head of a singly linked list, reverse the list, and return the reversed list.
 
  
 
 Example 1:
+Input: head = [1,2,3,4,5]
+Output: [5,4,3,2,1]
 
-Input: n = 2
-Output: 2
-Explanation: There are two ways to climb to the top.
-1. 1 step + 1 step
-2. 2 steps
 Example 2:
+Input: head = [1,2]
+Output: [2,1]
 
-Input: n = 3
-Output: 3
-Explanation: There are three ways to climb to the top.
-1. 1 step + 1 step + 1 step
-2. 1 step + 2 steps
-3. 2 steps + 1 step
+Example 3:
+Input: head = []
+Output: []
